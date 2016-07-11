@@ -1,0 +1,22 @@
+{
+  "name": "crossword",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Ali Daw <alasdair.daw@red-gate.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "knockout": "^3.4.0",
+	"requirejs": "~2.1.22"
+  }
+}
