@@ -129,3 +129,18 @@ a {
   flex: 1;
   border: #A9A9A9 solid 1px;
   margin-top: 3em; }
+  
+  
+  .cell{
+      height:2ch;
+      width: 1em;
+      background-color: white;
+      border-width: 1px;
+      border-color: black;
+      border-style: solid;
+  }
+  
+  .shaded{
+      background-color: black;
+      color: white;
+  }

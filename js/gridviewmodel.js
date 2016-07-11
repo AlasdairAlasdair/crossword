@@ -3,7 +3,14 @@
     var gridViewModel = function() {
         
         var self = this;
-		console.log("hello there");
+		
+        self.cells = ko.observableArray([
+            { letter: 'A' , shaded: false},
+            { letter: '' , shaded: true},
+            { letter: 'B' , shaded: false}
+        ]);
+ 
+ 
     };
 
     return gridViewModel;
