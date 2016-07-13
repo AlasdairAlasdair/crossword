@@ -17,7 +17,14 @@
         <main class="site-content fade-in">
             <div id="sql-container">
                 <!-- ko foreach: cells -->
-                <div class="cell" data-bind="text: $data.letter, css: {shaded : $data.shaded}"></div>
+                    <div class="cell-container">
+                        <div class="number-container">
+                            <p class="number" data-bind="text: $data.number, visible: $data.number !== null" style="display: none"></p>
+                        </div>
+                        <input class="cell" maxlength="1"  data-bind="value: $data.letter, css: {shaded : $data.shaded}, attr: {readonly : $data.shaded}"></input>
+                        
+                    </div>
+
                 <!-- /ko -->
             </div>
 

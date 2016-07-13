@@ -123,25 +123,39 @@ a {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  flex-flow: row nowrap;
-  -webkit-flex-flow: row nowrap;
-  justify-content: flex-start;
   flex: 1;
   border: #A9A9A9 solid 1px;
   margin-top: 3em; 
   margin-bottom: 3em;}
   
   
-  .cell{
+  .cell-container{
       height:2ch;
       width: 1em;
-      background-color: white;
-      border-width: 1px;
-      border-color: black;
-      border-style: solid;
   }
+  
+   
+  .cell{
+    max-width: 100%;
+    background-color: white;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+    padding-left: 2px;
+  }
+  
   
   .shaded{
       background-color: black;
       color: white;
+  }
+  
+  .number-container {
+      position: absolute;
+     
+  }
+
+  .number  {
+      font-size: xx-small;
+      color: grey; 
   }
