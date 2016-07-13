@@ -128,7 +128,8 @@ a {
   justify-content: flex-start;
   flex: 1;
   border: #A9A9A9 solid 1px;
-  margin-top: 3em; }
+  margin-top: 3em; 
+  margin-bottom: 3em;}
   
   
   .cell{
